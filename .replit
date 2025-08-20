@@ -1,0 +1,12 @@
+run = "pip install -r requirements.txt && python3 main.py"
+
+language = "python3"
+
+[packager]
+  language = "python3"
+
+[unitTest]
+  language = "python3"
+
+[deployment]
+  run = ["sh", "-c", "pip install -r requirements.txt && python3 main.py"]
